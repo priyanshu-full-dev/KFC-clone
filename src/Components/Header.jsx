@@ -19,9 +19,10 @@ const Header = ({ cartCount, setIsCartOpen }) => {
             onClick={() => setIsCartOpen(true)}
             className="bg-white rounded-full w-10 h-10 flex items-center justify-center cursor-pointer shadow relative hover:bg-gray-50 bg-[url( /image/bucket_cart_icon.svg)] bg-cover transition"
           >
+            <i className="ri-shopping-cart-2-fill text-red-600 "></i>
             
             {cartCount > 0 && (
-              <span className="absolute mt-0.5 text-center font-bold  text-red-600 rounded-full w-5 h-5 text-xs flex items-center justify-center">
+              <span className="absolute right-0 top-0 text-center font-bold  text-red-600 rounded-full w-5 h-5 text-xs flex items-center justify-center">
                 {cartCount}
               </span>
             )}
