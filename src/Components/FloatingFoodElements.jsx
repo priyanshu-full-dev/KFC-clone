@@ -25,12 +25,12 @@ const FloatingFoodElements = () => {
   }, []);
 
  const foodItems = [
-  { image: '../../public/image/if1.png', size: 'w-20 h-20', top: '10%', left: '5%' },
-  { image: '../../public/image/if4.png', size: 'w-60  h-60', top: '20%', right: '20%' },
-  { image: '../../public/image/if3.png', size: 'w-16 h-16', bottom: '25%', left: '10%' },
-  { image: '../../public/image/if2.png', size: 'w-16 h-16', top: '60%', left: '7%' },
-  { image: '../../public/image/if5.png', size: 'w-60 h-60', top: '30%', right: '3%' },
-  { image: '../../public/image/if4.png', size: 'w-60 h-60', bottom: '5%', right: '12%' },
+  { image: ' /image/if1.png', size: 'w-20 h-20', top: '10%', left: '5%' },
+  { image: ' /image/if4.png', size: 'w-60  h-60', top: '20%', right: '20%' },
+  { image: ' /image/if3.png', size: 'w-16 h-16', bottom: '25%', left: '10%' },
+  { image: ' /image/if2.png', size: 'w-16 h-16', top: '60%', left: '7%' },
+  { image: ' /image/if5.png', size: 'w-60 h-60', top: '30%', right: '3%' },
+  { image: ' /image/if4.png', size: 'w-60 h-60', bottom: '5%', right: '12%' },
 ];
   return (
     <>

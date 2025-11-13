@@ -13,7 +13,7 @@ const ProductsSection = ({ addToCart }) => {
     description: '8 pieces of our famous Original Recipe chicken',
     price: 449,
     originalPrice: 599,
-    image: '../../public/image/pr1.png',
+    image: ' /image/pr1.png',
     category: 'chicken',
     badge: 'Popular'
   },
@@ -22,7 +22,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Hot Wings',
     description: '6 pieces of spicy hot wings',
     price: 219,
-    image: '../../public/image/pr2.png',
+    image: ' /image/pr2.png',
     category: 'chicken',
     badge: 'Spicy'
   },
@@ -32,7 +32,7 @@ const ProductsSection = ({ addToCart }) => {
     description: 'Bite-sized crispy chicken pieces',
     price: 149,
     originalPrice: 199,
-    image: '../../public/image/pr3.png',
+    image: ' /image/pr3.png',
     category: 'chicken'
   },
   {
@@ -40,7 +40,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Chicken Strips',
     description: '5 crispy chicken strips with dipping sauce',
     price: 189,
-    image: '../../public/image/pr4.png',
+    image: ' /image/pr4.png',
     category: 'chicken'
   },
   {
@@ -48,7 +48,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Grilled Chicken',
     description: 'Healthy grilled chicken breast with herbs',
     price: 249,
-    image: '../../public/image/pr5.png',
+    image: ' /image/pr5.png',
     category: 'chicken',
     badge: 'New'
   },
@@ -57,7 +57,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Chicken Nuggets',
     description: '10 pieces of golden chicken nuggets',
     price: 129,
-    image: '../../public/image/pr6.png',
+    image: ' /image/pr6.png',
     category: 'chicken'
   },
   {
@@ -65,7 +65,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'BBQ Chicken Wings',
     description: '8 pieces with smoky BBQ sauce',
     price: 269,
-    image: '../../public/image/pr7.png',
+    image: ' /image/pr7.png',
     category: 'chicken',
     badge: 'Popular'
   },
@@ -74,7 +74,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Chicken Drumsticks',
     description: '4 juicy chicken drumsticks',
     price: 199,
-    image: '../../public/image/pr8.png',
+    image: ' /image/pr8.png',
     category: 'chicken'
   },
 
@@ -84,7 +84,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Zinger Burger',
     description: 'Crispy zinger fillet with lettuce and mayo',
     price: 199,
-    image: '../../public/image/pr9.png',
+    image: ' /image/pr9.png',
     category: 'burgers',
     badge: 'New'
   },
@@ -93,7 +93,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Veg Burger',
     description: 'Crispy veg patty with fresh veggies',
     price: 149,
-    image: '../../public/image/pr10.png',
+    image: ' /image/pr10.png',
     category: 'burgers'
   },
   {
@@ -101,7 +101,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Classic Chicken Burger',
     description: 'Original chicken burger with special sauce',
     price: 179,
-   image: '../../public/image/pr11.png',
+   image: ' /image/pr11.png',
     category: 'burgers'
   },
   {
@@ -110,7 +110,7 @@ const ProductsSection = ({ addToCart }) => {
     description: 'Double chicken patty with cheese',
     price: 249,
     originalPrice: 299,
-    image: '../../public/image/pr12.png',
+    image: ' /image/pr12.png',
     category: 'burgers',
     badge: 'Popular'
   },
@@ -119,7 +119,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Spicy Chicken Burger',
     description: 'Extra spicy with jalapenos and hot sauce',
     price: 189,
-   image: '../../public/image/pr13.png',
+   image: ' /image/pr13.png',
     category: 'burgers',
     badge: 'Spicy'
   },
@@ -128,7 +128,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Cheese Burst Burger',
     description: 'Loaded with melted cheese',
     price: 219,
-    image: '../../public/image/pr14.png',
+    image: ' /image/pr14.png',
     category: 'burgers'
   },
   {
@@ -136,7 +136,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'BBQ Bacon Burger',
     description: 'Smoky BBQ sauce with crispy bacon',
     price: 269,
-    image: '../../public/image/pr15.png',
+    image: ' /image/pr15.png',
     category: 'burgers'
   },
   {
@@ -144,7 +144,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Paneer Burger',
     description: 'Grilled paneer patty with mint chutney',
     price: 159,
-   image: '../../public/image/pr16.png',
+   image: ' /image/pr16.png',
     category: 'burgers'
   },
 
@@ -154,7 +154,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Large Fries',
     description: 'Crispy golden fries seasoned to perfection',
     price: 99,
-    image: '../../public/image/pr17.png',
+    image: ' /image/pr17.png',
     category: 'sides'
   },
   {
@@ -162,7 +162,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Coleslaw',
     description: 'Fresh creamy coleslaw salad',
     price: 89,
-   image: '../../public/image/pr18.png',
+   image: ' /image/pr18.png',
     category: 'sides'
   },
   {
@@ -170,7 +170,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Cheese Fries',
     description: 'Fries topped with melted cheese sauce',
     price: 129,
-    image: '../../public/image/pr19.png',
+    image: ' /image/pr19.png',
     category: 'sides',
     badge: 'Popular'
   },
@@ -179,7 +179,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Onion Rings',
     description: 'Crispy battered onion rings',
     price: 109,
-    image: '../../public/image/pr20.png',
+    image: ' /image/pr20.png',
     category: 'sides'
   },
   {
@@ -187,7 +187,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Mashed Potato',
     description: 'Creamy mashed potato with gravy',
     price: 79,
-    image: '../../public/image/pr21.png',
+    image: ' /image/pr21.png',
     category: 'sides'
   },
   {
@@ -195,7 +195,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Corn on the Cob',
     description: 'Buttered corn with herbs',
     price: 69,
-    image: '../../public/image/pr22.png',
+    image: ' /image/pr22.png',
     category: 'sides'
   },
   {
@@ -203,7 +203,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Garden Salad',
     description: 'Fresh mixed greens with dressing',
     price: 99,
-    image: '../../public/image/pr23.png',
+    image: ' /image/pr23.png',
     category: 'sides'
   },
   {
@@ -211,7 +211,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Potato Wedges',
     description: 'Seasoned potato wedges with dip',
     price: 119,
-    image: '../../public/image/pr24.png',
+    image: ' /image/pr24.png',
     category: 'sides'
   },
 
@@ -221,7 +221,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Pepsi',
     description: 'Chilled refreshing Pepsi 500ml',
     price: 79,
-   image: '../../public/image/pr25.png',
+   image: ' /image/pr25.png',
     category: 'beverages'
   },
   {
@@ -229,7 +229,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Coca Cola',
     description: 'Classic Coke 500ml',
     price: 79,
-    image: '../../public/image/pr26.png',
+    image: ' /image/pr26.png',
     category: 'beverages'
   },
   {
@@ -237,7 +237,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Fresh Lime Soda',
     description: 'Refreshing lime with soda',
     price: 69,
-   image: '../../public/image/pr27.png',
+   image: ' /image/pr27.png',
     category: 'beverages'
   },
   {
@@ -245,7 +245,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Iced Tea',
     description: 'Chilled lemon iced tea',
     price: 89,
-   image: '../../public/image/pr28.png',
+   image: ' /image/pr28.png',
     category: 'beverages'
   },
   {
@@ -253,7 +253,7 @@ const ProductsSection = ({ addToCart }) => {
     name: 'Mango Shake',
     description: 'Thick mango milkshake',
     price: 119,
-    image: '../../public/image/pr29.png',
+    image: ' /image/pr29.png',
     category: 'beverages',
     badge: 'New'
   },

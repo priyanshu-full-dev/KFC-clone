@@ -17,7 +17,7 @@ const Header = ({ cartCount, setIsCartOpen }) => {
           </div>
           <div 
             onClick={() => setIsCartOpen(true)}
-            className="bg-white rounded-full w-10 h-10 flex items-center justify-center cursor-pointer shadow relative hover:bg-gray-50 bg-[url(../../public/image/bucket_cart_icon.svg)] bg-cover transition"
+            className="bg-white rounded-full w-10 h-10 flex items-center justify-center cursor-pointer shadow relative hover:bg-gray-50 bg-[url( /image/bucket_cart_icon.svg)] bg-cover transition"
           >
             
             {cartCount > 0 && (

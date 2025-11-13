@@ -12,26 +12,26 @@ const Hero = () => {
       title: "Italian pasta with vegetables",
       description: "Such as rotini pasta, broccoli florets, cherry tomatoes, black olives, and green peas, being tossed or flying above a black frying pan.",
       price: "299",
-      image: "../../public/image/br.png"
+      image: " /image/br.png"
 
     },
     {
       title: "CRISPY ZINGER BURGER COMBO",
       description: "Spicy, crispy, and absolutely delicious. Our signature Zinger burger with extra crunch and flavor that hits the spot every time.",
       price: "199",
-      image: "../../public/image/burg.png"
+      image: " /image/burg.png"
     },
     {
       title: "FAMILY FEAST BUCKET",
       description: "Share the joy with our family bucket. Loaded with crispy chicken pieces, perfect for gatherings and celebrations.",
       price: "599",
-      image: "../../public/image/fam.png"
+      image: " /image/fam.png"
     },
     {
       title: "POPCORN CHICKEN DELIGHT",
       description: "Bite-sized perfection in every piece. Our popcorn chicken is crispy outside, tender inside, and utterly irresistible.",
       price: "149",
-      image: "../../public/image/pop.png"
+      image: " /image/pop.png"
     }
   ];
 
