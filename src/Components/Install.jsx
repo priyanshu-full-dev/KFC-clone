@@ -36,7 +36,7 @@ const Install = () => {
         </div>
       </div>
       
-      <div className="flex-1 text-white">
+      <div className="flex-1 mt-10 md:mt-0 text-white">
         <h2 className="text-5xl font-bold hidden md:flex mb-8">Now With Your Favorite KFC Mobile Application In Your Pocket</h2>
         <div className="lg:flex flex flex-col gap-5">
           <a href="#" className="bg-black text-white px-7 py-4 rounded-xl flex items-center gap-3 hover:scale-105 transition">
