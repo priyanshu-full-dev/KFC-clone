@@ -13,11 +13,11 @@ const Header = ({ cartCount, setIsCartOpen }) => {
         <a href="#campaigns" className="text-red-600 font-bold text-sm hover:opacity-80 transition">ALL CAMPAIGNS</a>
         <div className="flex gap-4">
           <div className="bg-white rounded-full w-10 h-10 flex items-center justify-center cursor-pointer shadow">
-        <i className="ri-user-2-fill text-2xl text-red-600"></i>
+        <i className="ri-user-2-fill  text-red-600"></i>
           </div>
           <div 
             onClick={() => setIsCartOpen(true)}
-            className="bg-white rounded-full w-10 h-10 flex items-center justify-center cursor-pointer shadow relative hover:bg-gray-50 bg-[url( /image/bucket_cart_icon.svg)] bg-cover transition"
+            className="bg-white rounded-full w-10 h-10 flex items-center justify-center cursor-pointer shadow relative hover:bg-gray-50  transition"
           >
             <i className="ri-shopping-cart-2-fill text-red-600 "></i>
             
