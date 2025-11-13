@@ -3,7 +3,7 @@ import React from 'react'
 const Install = () => {
   return (
     <div>
-         <section className="bg-gradient-to-br from-yellow-500 to-orange-500 px-12 py-20 lg:flex justify-between items-center gap-12">
+         <section className="bg-gradient-to-br from-yellow-500 to-orange-500 px-12 py-20 md:flex justify-between items-center gap-12">
       <div className="flex-1 flex items-center justify-center">
         <div className="w-72 h-[550px] bg-gradient-to-br from-red-600 to-red-900 rounded-[40px] p-4 shadow-2xl relative">
           <div className="absolute top-5 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-2xl z-10" />
