@@ -61,10 +61,10 @@ const Slider = ({ title, description, price, image, isActive }) => {
     }
   }, [isActive]);
   return (
-    <div className={`absolute w-full h-full flex justify-between items-center px-12 transition-opacity duration-500 ${isActive ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+    <div className={`absolute w-full h-full lg:flex justify-between items-center px-12 transition-opacity duration-500 ${isActive ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
       <div ref={contentRef} className="max-w-lg z-10">
-        <h1 className="text-6xl text-white font-bold uppercase leading-tight mb-5">{title}</h1>
-        <p className="text-white/80 mb-8 text-base">{description}</p>
+        <h1 className="lg:text-6xl text-5xl text-white font-bold uppercase leading-tight mb-5">{title}</h1>
+        <p className="text-white/80 mb-8 hidden lg:flex text-base">{description}</p>
         <button className="bg-transparent border-3 border-white text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-red-600 transition">
           ORDER NOW
         </button>
