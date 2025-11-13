@@ -3,7 +3,7 @@ import React from 'react'
 const Install = () => {
   return (
     <div>
-         <section className="bg-gradient-to-br from-yellow-500 to-orange-500 px-12 py-20 flex justify-between items-center gap-12">
+         <section className="bg-gradient-to-br from-yellow-500 to-orange-500 px-12 py-20 lg:flex justify-between items-center gap-12">
       <div className="flex-1 flex items-center justify-center">
         <div className="w-72 h-[550px] bg-gradient-to-br from-red-600 to-red-900 rounded-[40px] p-4 shadow-2xl relative">
           <div className="absolute top-5 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-2xl z-10" />
@@ -37,8 +37,8 @@ const Install = () => {
       </div>
       
       <div className="flex-1 text-white">
-        <h2 className="text-5xl font-bold mb-8">Now With Your Favorite KFC Mobile Application In Your Pocket</h2>
-        <div className="flex gap-5">
+        <h2 className="text-5xl font-bold hidden md:flex mb-8">Now With Your Favorite KFC Mobile Application In Your Pocket</h2>
+        <div className="lg:flex flex flex-col gap-5">
           <a href="#" className="bg-black text-white px-7 py-4 rounded-xl flex items-center gap-3 hover:scale-105 transition">
             <i className="ri-app-store-fill text-4xl"></i>
             <div>
