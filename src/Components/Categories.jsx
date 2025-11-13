@@ -25,13 +25,13 @@ const Categories = ({ activeCategory, setActiveCategory }) => {
   };
   return (
     <div className="bg-white py-8 px-12 shadow-md sticky  z-40 categories-section">
-      <div className="flex justify-center items-center gap-10">
+      <div className="flex justify-center items-center lg:gap-10">
         {categories.map((category) => (
           <div
             key={category.id}
             data-category={category.id}
             onClick={() => handleCategoryClick(category.id)}
-            className={`category-item flex flex-col items-center gap-3 cursor-pointer transition-transform hover:-translate-y-1 min-w-[80px] ${
+            className={`category-item flex flex-col items-center gap-3 cursor-pointer transition-transform hover:-translate-y-1 lg:min-w-[80px] ${
               activeCategory === category.id ? 'scale-110' : ''
             }`}
           >
