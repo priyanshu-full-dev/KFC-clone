@@ -5,7 +5,7 @@ const Header = ({ cartCount, setIsCartOpen }) => {
   return (
     <div>
         
-      <header className="bg-white px-12 py-3 flex justify-between items-center shadow-md fixed w-full top-0 z-50">
+      <header className="bg-white px-5 md-px-12 py-3 flex justify-between items-center shadow-md fixed w-full top-0 z-50">
       <div className="text-5xl font-bold text-red-600 italic">KFC</div>
       <nav className="flex gap-8 items-center">
         <a href="#about" className="text-red-600 font-bold text-sm hidden md:flex hover:opacity-80 transition">ABOUT US</a>
